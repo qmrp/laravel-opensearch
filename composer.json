@@ -1,9 +1,9 @@
 {
-    "name": "orzcc/aliyun-opensearch",
+    "name": "qmrp/laravel-opensearch",
     "type": "library",
     "description": "Aliyun open search for Laravel7",
     "keywords": ["aliyun", "opensearch", "laravel"],
-    "homepage": "https://github.com/qmrpzhou/aliyun-opensearch",
+    "homepage": "https://github.com/qmrp/laravel-opensearch/",
     "license": "MIT",
     "authors": [
         {
