@@ -1,0 +1,24 @@
+{
+    "name": "orzcc/aliyun-opensearch",
+    "type": "library",
+    "description": "Aliyun open search for Laravel7",
+    "keywords": ["aliyun", "opensearch", "laravel"],
+    "homepage": "https://github.com/qmrpzhou/aliyun-opensearch",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhou",
+            "email": "zhou@163.com"
+        }
+    ],
+    "require": {
+      "php": ">=5.4.0",
+      "laravel/framework": "^7.24",
+      "graham-campbell/manager": "~4.6"
+    },
+    "autoload": {
+      "psr-4": {
+        "Orzcc\\Opensearch\\": "src/"
+      }
+    }
+}
