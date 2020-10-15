@@ -1,11 +1,11 @@
 # Laravel Aliyun Opensearch
-Aliyun Opensearch bridge for Laravel 5
+Aliyun Opensearch bridge for Laravel 7
 
 ## Installation
 
 This package can be installed through Composer.
 ```bash
-composer require orzcc/aliyun-opensearch
+composer require qmrp/laravel-opensearch
 ```
 
 Once Opensearch is installed, you need to register the service provider. Open up `config/app.php` and add the following to the `providers` key.
