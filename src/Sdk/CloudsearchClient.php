@@ -1,5 +1,5 @@
 <?php
-namespace Orzcc\Opensearch\Sdk;
+namespace Qmrp\Opensearch\Sdk;
 /**
  * Cloudsearch service。
  *

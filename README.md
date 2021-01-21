@@ -10,11 +10,11 @@ composer require qmrp/laravel-opensearch
 
 Once Opensearch is installed, you need to register the service provider. Open up `config/app.php` and add the following to the `providers` key.
 
-* `'Orzcc\Opensearch\OpensearchServiceProvider'`
+* `'Qmrp\Opensearch\OpensearchServiceProvider'`
 
 You can register the Opensearch facade in the `aliases` key of your `config/app.php` file if you like.
 
-* `'Opensearch' => 'Orzcc\Opensearch\Facades\Opensearch'`
+* `'Opensearch' => 'Qmrp\Opensearch\Facades\Opensearch'`
 
 ## Configuration
 
@@ -57,7 +57,7 @@ This class contains no public methods of interest. This class should be added to
 Here you can see an example of just how simple this package is to use. Out of the box, the default adapter is `main`. After you enter your authentication and host details in the config file, it will just work:
 
 ```php
-use Orzcc\Opensearch\Facades\Opensearch;
+use Qmrp\Opensearch\Facades\Opensearch;
 // you can alias this in config/app.php if you like
 
 // Add a new app to search

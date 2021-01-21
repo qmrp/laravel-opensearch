@@ -1,4 +1,5 @@
-<?php namespace Orzcc\Opensearch\Facades;
+<?php 
+namespace Qmrp\Opensearch\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

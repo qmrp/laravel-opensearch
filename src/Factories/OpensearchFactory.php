@@ -1,8 +1,8 @@
 <?php
-namespace Orzcc\Opensearch\Factories;
+namespace Qmrp\Opensearch\Factories;
 
-use Orzcc\Opensearch\Sdk\CloudsearchClient;
-use Orzcc\Opensearch\Sdk\CloudsearchSearch;
+use Qmrp\Opensearch\Sdk\CloudsearchClient;
+use Qmrp\Opensearch\Sdk\CloudsearchSearch;
 use Illuminate\Support\Arr;
 
 class OpensearchFactory

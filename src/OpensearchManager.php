@@ -1,7 +1,7 @@
 <?php
-namespace Orzcc\Opensearch;
+namespace Qmrp\Opensearch;
 
-use Orzcc\Opensearch\Factories\OpensearchFactory;
+use Qmrp\Opensearch\Factories\OpensearchFactory;
 use GrahamCampbell\Manager\AbstractManager;
 use Illuminate\Contracts\Config\Repository;
 

@@ -1,4 +1,5 @@
-<?php namespace Orzcc\Opensearch;
+<?php 
+namespace Qmrp\Opensearch;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
@@ -46,7 +47,7 @@ class OpensearchServiceProvider extends ServiceProvider {
         $app->singleton('opensearch.factory', function ($app) {
             return new Factories\OpensearchFactory();
         });
-        $app->alias('opensearch.factory', 'Orzcc\Opensearch\Factories\OpensearchFactory');
+        $app->alias('opensearch.factory', 'Qmrp\Opensearch\Factories\OpensearchFactory');
     }
     /**
      * Register the manager class.
@@ -62,7 +63,7 @@ class OpensearchServiceProvider extends ServiceProvider {
             $factory = $app['opensearch.factory'];
             return new OpensearchManager($config, $factory);
         });
-        $app->alias('opensearch', 'Orzcc\Opensearch\OpensearchManager');
+        $app->alias('opensearch', 'Qmrp\Opensearch\OpensearchManager');
     }
     /**
      * Get the services provided by the provider.
