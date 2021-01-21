@@ -14,4 +14,5 @@ class OpenSearch extends Facade
     {
         return 'opensearch';
     }
+    
 }
